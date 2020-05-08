@@ -1,0 +1,5 @@
+---
+- hosts: "{{instance}}"
+  tasks:
+  - name: Execute fix
+    script: "scripts/{{job}}.sh"
